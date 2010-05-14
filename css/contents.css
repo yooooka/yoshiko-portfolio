@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+.sampleframe{ margin: 15px 4px; padding: 9px; background: #FFF; font-size: 1.4em; line-height: 1.4; position: relative;}
+.sampleframe img{ float: left;}
+.explanation{ text-align: left; margin-left: 12px; float: left; width: 32%;}
+.explanation h2{ margin-bottom: 15px; margin-top: 2px;}
+.explanation .year{ color:#999; text-decoration: none; font-weight: bold; margin-bottom: 5px;}
+
+.backtop a{ position: absolute; bottom: 12px; right: 12px; color: #999; font-size: 0.9em;}
+
+.sliderGallery { background:#C3D72C; overflow: hidden; position: relative; padding: 0px; height: 120px; width: 560px; margin-left: 4px; margin-bottom: 30px; }
+.sliderGallery UL { position: absolute; list-style: none; overflow: none;  white-space: nowrap; padding: 10px; margin: 0; }
+.sliderGallery UL LI { display: inline; }
+.slider { width: 542px; height: 17px; margin-top: 100px; margin-left: 5px; padding: 1px; position: relative;
+ background: url(http://static.jqueryfordesigners.com/demo/images/productbrowser_scrollbar_20070622.png) no-repeat; }
+.handle { position: absolute; cursor: move; height: 17px; width: 181px; top: 0;
+ background: url(http://static.jqueryfordesigners.com/demo/images/productbrowser_scroller_20080115.png) no-repeat;
+ z-index: 100; }
+        
