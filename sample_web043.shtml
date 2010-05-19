@@ -50,7 +50,7 @@ $(".rounded").corner("6px")
 <!--#include virtual="/ssi/header.txt" -->
 
 <div class="sampleframe_outer">
-<div class="sampleframe_web clearfix rounded">
+<div class="sampleframe clearfix rounded">
 <img src="images/samples/skullsquad01.jpg" alt="skullsquad01" />
 <div class="explanation">
 <h2>Skullsquadron</h2>

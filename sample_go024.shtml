@@ -50,11 +50,9 @@ $(".rounded").corner("6px")
 <!--#include virtual="/ssi/header.txt" -->
 
 <div class="sampleframe_outer">
-<div class="sampleframe_go clearfix rounded">
-<div class="sampleimg">
+<div class="sampleframe clearfix rounded">
 <img src="images/samples/yurikinoshita01.jpg" alt="yurikinoshita01" />
-<img src="images/samples/yurikinoshita02.jpg" alt="yurikinoshita02" />	
-</div>
+<img src="images/samples/yurikinoshita02.jpg" alt="yurikinoshita02" />
 <div class="explanation">
 <h2>Woven Light by Yuri Kinoshita</h2>
 <p class="year">2010, Design</p>
