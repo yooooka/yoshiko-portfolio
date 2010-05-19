@@ -50,12 +50,15 @@ $(".rounded").corner("6px")
 <!--#include virtual="/ssi/header.txt" -->
 
 <div class="sampleframe_outer">
-<div class="sampleframe_web clearfix rounded">
-<img src="images/samples/skullsquad01.jpg" alt="skullsquad01" />
+<div class="sampleframe_go clearfix rounded">
+<div class="sampleimg">
+<img src="images/samples/yurikinoshita01.jpg" alt="yurikinoshita01" />
+<img src="images/samples/yurikinoshita02.jpg" alt="yurikinoshita02" />	
+</div>
 <div class="explanation">
-<h2>Skullsquadron</h2>
-<p class="year">2009, Design, Code</p>
-<p>Created the site for the web developing company. Built with Drupal.</p>
+<h2>Woven Light by Yuri Kinoshita</h2>
+<p class="year">2010, Design</p>
+<p>Created the card for Yuri Kinoshita, who is a lighting designer.</p>
 <div class="backtop">
 <a href="/">Back top</a>
 </div>	

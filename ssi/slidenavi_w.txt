@@ -45,12 +45,41 @@
 <li><a href="#"><img src="images/thumb/k19_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="#"><img src="images/thumb/hotel_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="#"><img src="images/thumb/foxmovies_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/wovenlight_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/bonsaiauction_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/tackysmack1_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/tackysmack2_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/tackysmack3_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/tackysmack4_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/yntranslationlogo_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/youmaga_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/uticketlogo_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/livemasterlogo_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/telemorulogo_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/departure_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/kikaimart_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/mitsubishirayon_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/nagomi1_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/dupont_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/yukijirushi1_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/yukijirushi2_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/yukijirushi3_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/yukijirushi4_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/yukijirushi5_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/sasazuke_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/nagomi2_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/mccormick_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="#"><img src="images/thumb/isetan_t.jpg" alt="Thumbnail" /></a></li>
 </ul>
-
+<div class="slider_outer">
   <div class="slider">
     <!-- the handler to action the slide -->
     <div class="handle"></div>
     <!-- labels appear against the slider, as pointers to the user -->
+    <span class="slider-lbl1">Web</span>
+    <span class="slider-lbl2">Graphics</span>
   </div>
+</div>
  
 </div>
+

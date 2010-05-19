@@ -33,15 +33,14 @@ $(this).stop().animate({opacity: 0}, "normal");
 <div id="container">
 <div id="container_inner">
 	
-<div id="header">
-<h1><a href="/"><span class="alt">Web and Graphic Designer / Yoshiko Oka</span></a></h1>
-</div>
+<!--#include virtual="/ssi/header.txt" -->
 
-<div id="thumb_frame">
+
+<div id="thumb_frame" class="clearfix">
 <div id="topthumb_web">
 <h2>Websites</h2>
 <ul>
-<li><a href="#"><img src="images/thumb/skullsquad_t.jpg" alt="Thumbnail" /></a><p>Skullsquadron<br />2010</p></li>
+<li><a href="sample_web043.shtml"><img src="images/thumb/skullsquad_t.jpg" alt="Thumbnail" /></a><p>Skullsquadron<br />2010</p></li>
 <li><a href="#"><img src="images/thumb/yntranslation_t.jpg" alt="Thumbnail" /></a><p>YN Translation Service<br />2009</p></li>
 <li><a href="#"><img src="images/thumb/ak100_t.jpg" alt="Thumbnail" /></a><p>AK100 World Tour<br />2008</p></li>
 <li><a href="#"><img src="images/thumb/benefitc_t.jpg" alt="Thumbnail" /></a><p>Benefit Concert for...<br />2008</p></li>
@@ -91,7 +90,7 @@ $(this).stop().animate({opacity: 0}, "normal");
 <div id="topthumb_go">
 <h2>Graphics &amp; Others</h2>
 <ul>
-<li><a href="#"><img src="images/thumb/wovenlight_t.jpg" alt="Thumbnail" /></a><p>Woven Light<br />2010</p></li>
+<li><a href="sample_go024.shtml"><img src="images/thumb/wovenlight_t.jpg" alt="Thumbnail" /></a><p>Woven Light<br />2010</p></li>
 <li><a href="#"><img src="images/thumb/bonsaiauction_t.jpg" alt="Thumbnail" /></a><p>Bonsai Auction<br />2010</p></li>
 <li><a href="#"><img src="images/thumb/tackysmack1_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2010</p></li>
 <li><a href="#"><img src="images/thumb/tackysmack2_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2010</p></li>
@@ -100,7 +99,7 @@ $(this).stop().animate({opacity: 0}, "normal");
 <li><a href="#"><img src="images/thumb/yntranslationlogo_t.jpg" alt="Thumbnail" /></a><p>YN Translation Logo<br />2009</p></li>
 <li><a href="#"><img src="images/thumb/youmaga_t.jpg" alt="Thumbnail" /></a><p>Youmaga<br />2008</p></li>
 <li><a href="#"><img src="images/thumb/uticketlogo_t.jpg" alt="Thumbnail" /></a><p>Uticket Logo<br />2006</p></li>
-<li><a href="#"><img src="images/thumb/livemasterlogo_t.jpg" /></a><p>Live Master Logo<br />2006</p></li>
+<li><a href="#"><img src="images/thumb/livemasterlogo_t.jpg" alt="Thumbnail" /></a><p>Live Master Logo<br />2006</p></li>
 <li><a href="#"><img src="images/thumb/telemorulogo_t.jpg" alt="Thumbnail" /></a><p>Telemoru Week Logo<br />2005</p></li>
 <li><a href="#"><img src="images/thumb/departure_t.jpg" alt="Thumbnail" /></a><p>Departure<br />2001</p></li>
 <li><a href="#"><img src="images/thumb/kikaimart_t.jpg" alt="Thumbnail" /></a><p>Kikai Mart Logo<br />2000</p></li>
@@ -120,12 +119,10 @@ $(this).stop().animate({opacity: 0}, "normal");
 </div>
 </div>
 
+<!--#include virtual="/ssi/contact.txt" -->
+
 </div>
 
-<div id="righthead">
-<h3 id="twitter"><a href="http://twitter.com/yooooka"><span class="alt">Twitter</span></a></h3>	
-<h3 id="contact"><a href="contact.html"><span class="alt">Contact</span></a></h3>
-<h3 id="profile"><a href="profile.html"><span class="alt">Profile</span></a></h3>
 </div>
 </div>
 </body>
