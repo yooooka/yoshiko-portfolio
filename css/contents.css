@@ -1,8 +1,10 @@
 @charset 'UTF-8';
 
-.sampleframe{ position: relative; margin: 15px 4px; padding: 10px; background: #C3D72C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
-.sampleframe_web{ position: relative; margin: 15px 4px; padding: 10px; background: #6F9B2C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
-.sampleframe img{ float: left;}
+.sampleframe_web{ position: relative; margin: 15px 4px; padding: 10px; background: #C3D72C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
+.sampleframe_go{ position: relative; margin: 15px 4px; padding: 10px; background: #6F9B2C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
+
+.sampleframe_web .sampleimg, .sampleframe_go .sampleimg{ float: left; width: 680px;}
+.sampleframe_web img.mrg10, .sampleframe_go img.mrg10{ margin-top: 10px;}
 .explanation{ text-align: left; margin-left: 12px; float: left; width: 32%;}
 .explanation h2{ margin-bottom: 15px; margin-top: 2px;}
 .explanation .year{ color:#EEE; text-decoration: none; font-weight: bold; margin-bottom: 5px;}

@@ -44,8 +44,6 @@ background: url(../images/sprite01.gif) -6px -53px no-repeat; margin-right: 4px;
 background: url(../images/sprite01.gif) -154px -53px no-repeat; margin-right: 4px; margin-bottom: 2px; }
 
 	
-/* ____ footer ____ */
-.copyright{ margin:0px auto; padding-top:0px; font-size:120%; font-family:"Verdana", "Lucida Grande", sans-serif; }
 
 /* ____ common parts ____ */
 .hrgray { border-bottom: 1px solid #A9A9A9; background: transparent; margin:15px auto; padding:0px; height:1px; font-size: 1%; }
@@ -66,16 +64,7 @@ table img{ vertical-align:middle; }
 
 
 /* ____ versatile class ____ */
-.floatleft{ float:left;}
-.floatright{ float:right;}
-.center{ text-align:center;}
-.left{ text-align:left;}
-.right{ text-align:right;}
-.inline div{ display:inline;}
-
-.rounded{  border-radius: 6px; /* CSS3草案 */  
--webkit-border-radius: 6px;    /* Safari,Google Chrome用 */  
--moz-border-radius: 6px;       /* Firefox用 */  }  
+.rounded{ border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px;}  
 
 /*float-clear */
 .cfl{ clear:both; height:0pt; line-height:0pt; font-size:1px; display:block; }

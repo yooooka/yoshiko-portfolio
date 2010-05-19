@@ -14,33 +14,7 @@
 <script type="text/javascript" src="jquery/jquery-1.2.6.js"></script>
 <script type="text/javascript" src="jquery/jquery-ui-full-1.5.2.min.js"></script>
 <script type="text/javascript" src="jquery/jquery.corner.js"></script>
-
-<script type="text/javascript">
-        window.onload = function () {
-            var container = $('div.sliderGallery');
-            var ul = $('ul', container);
-            
-            var itemsWidth = ul.innerWidth() - container.outerWidth();
-            
-            $('.slider', container).slider({
-                min: 0,
-                max: itemsWidth,
-                handle: '.handle',
-                stop: function (event, ui) {
-                    ul.animate({'left' : ui.value * -1}, 500);
-                },
-                slide: function (event, ui) {
-                    ul.css('left', ui.value * -1);
-                }
-            });
-        };
- 
- 
- $(function(){
-$(".rounded").corner("6px")
-});
-
-</script>
+<script type="text/javascript" src="jquery/allfunctions.js"></script>
 </head>
 
 <body>
@@ -50,9 +24,11 @@ $(".rounded").corner("6px")
 <!--#include virtual="/ssi/header.txt" -->
 
 <div class="sampleframe_outer">
-<div class="sampleframe clearfix rounded">
+<div class="sampleframe_go clearfix rounded">
+<div class="sampleimg">
 <img src="images/samples/yurikinoshita01.jpg" alt="yurikinoshita01" />
-<img src="images/samples/yurikinoshita02.jpg" alt="yurikinoshita02" />
+<img src="images/samples/yurikinoshita02.jpg" alt="yurikinoshita02" class="mrg10" />	
+</div>
 <div class="explanation">
 <h2>Woven Light by Yuri Kinoshita</h2>
 <p class="year">2010, Design</p>
