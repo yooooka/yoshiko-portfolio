@@ -1,4 +1,4 @@
 <div id="righthead">
-<h3 id="twitter"><a href="http://twitter.com/yooooka"><span class="alt">Twitter</span></a></h3>	
+<h3 id="twitter"><a href="http://twitter.com/yooooka" target="_blank"><span class="alt">Twitter</span></a></h3>	
 <h3 id="contact"><a href="contact.html"><span class="alt">Contact</span></a></h3>
 <h3 id="profile"><a href="profile.html"><span class="alt">Profile</span></a></h3>

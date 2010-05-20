@@ -1,13 +1,17 @@
 @charset 'UTF-8';
 
+.sampleframe_outer p{margin-bottom: 5px;}
+.sampleframe_outer img{border: 1px solid #DEDEDE;}
+
 .sampleframe_web{ position: relative; margin: 15px 4px; padding: 10px; background: #C3D72C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
 .sampleframe_go{ position: relative; margin: 15px 4px; padding: 10px; background: #6F9B2C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
 
 .sampleframe_web .sampleimg, .sampleframe_go .sampleimg{ float: left; width: 680px;}
 .sampleframe_web img.mrg10, .sampleframe_go img.mrg10{ margin-top: 10px;}
-.explanation{ text-align: left; margin-left: 12px; float: left; width: 32%;}
+
+.explanation{ text-align: left; margin-left: 15px; float: left; width: 32%;}
 .explanation h2{ margin-bottom: 15px; margin-top: 2px;}
-.explanation .year{ color:#EEE; text-decoration: none; font-weight: bold; margin-bottom: 5px;}
+.explanation .year{ color:#FFF; text-decoration: none; font-weight: bold; margin-bottom: 5px;}
 .backtop a{ position: absolute; bottom: 12px; right: 12px; color: #EEE; font-size: 0.9em;}
 
 .sliderGallery {  position: relative;background: #FFF url(../images/ruler_w.gif) 0px 96px no-repeat; overflow: hidden; padding: 0px; height: 132px; width: 1082px; margin-left: 4px; margin-bottom: 30px; }

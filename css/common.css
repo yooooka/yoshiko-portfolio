@@ -62,7 +62,7 @@ ul li{ list-style-type:none; }
 img{ border:0px none;}
 table img{ vertical-align:middle; }
 
-
+a{ color: #222;}
 /* ____ versatile class ____ */
 .rounded{ border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px;}  
 
