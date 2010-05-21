@@ -31,11 +31,9 @@
 </div>
 <div class="explanation">
 <h2>Benefit Concert for Seattle Community Law Center</h2>
-<p class="year">2008, Design, Code</p>
+<p class="year">2008, Design, Coding</p>
 <p>Created the site to promote a classical music performance.</p>
-<div class="backtop">
-<a href="/">Back top</a>
-</div>	
+<!--#include virtual="/ssi/backtop.txt" -->
 </div>
 </div>
 

@@ -31,11 +31,9 @@
 </div>
 <div class="explanation">
 <h2>Kyodo Factory Inc</h2>
-<p class="year">2007, Design, Code, Flash</p>
+<p class="year">2007, Design, Coding, Flash</p>
 <p>Created the web site to recruit employees to work at music events.</p>
-<div class="backtop">
-<a href="/">Back top</a>
-</div>	
+<!--#include virtual="/ssi/backtop.txt" -->
 </div>
 </div>
 

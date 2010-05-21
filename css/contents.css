@@ -9,10 +9,9 @@
 .sampleframe_web .sampleimg, .sampleframe_go .sampleimg{ float: left; width: 680px;}
 .sampleframe_web img.mrg10, .sampleframe_go img.mrg10{ margin-top: 10px;}
 
-.explanation{ text-align: left; margin-left: 15px; float: left; width: 32%;}
+.explanation{ text-align: left; margin-left: 15px; float: left; width: 350px;}
 .explanation h2{ margin-bottom: 15px; margin-top: 2px;}
 .explanation .year{ color:#FFF; text-decoration: none; font-weight: bold; margin-bottom: 5px;}
-.backtop a{ position: absolute; bottom: 12px; right: 12px; color: #EEE; font-size: 0.9em;}
 
 .sliderGallery {  position: relative;background: #FFF url(../images/ruler_w.gif) 0px 96px no-repeat; overflow: hidden; padding: 0px; height: 132px; width: 1082px; margin-left: 4px; margin-bottom: 30px; }
 .sliderGallery ul { position: absolute; list-style: none; overflow: none;  white-space: nowrap; padding: 8px 4px; margin: 0; }
@@ -28,3 +27,6 @@
 .slider span {color: #000; font-size: 1.1em; cursor: pointer; position: absolute; z-index: 110; top:6px; font-weight: bold;}
 .slider .slider-lbl1 {left: 28px; }
 .slider .slider-lbl2 {left: 737px; }
+
+.backtop a{ position: absolute; bottom: 12px; right: 12px; color: #000; font-size: 0.9em; background: url(../images/arrow_l.gif) 2px -4px no-repeat; width:5.7em; display: block; text-align: right;}
+#nextpre{ margin-top: 10px; font-size: 0.9em; background: url(../images/arrow_r.gif) 22px -4px no-repeat; display: block; padding-right: 7px;}

@@ -32,9 +32,7 @@
 <h2>Tact Home Search</h2>
 <p class="year">2008, Design</p>
 <p>Designed the web site for a real estate agency to show information about their listed properties.</p>
-<div class="backtop">
-<a href="/">Back top</a>
-</div>	
+<!--#include virtual="/ssi/backtop.txt" -->
 </div>
 </div>
 

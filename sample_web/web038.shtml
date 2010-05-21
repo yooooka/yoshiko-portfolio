@@ -32,9 +32,7 @@
 <h2>Treasure Net</h2>
 <p class="year">2007-2008, Design</p>
 <p>Created the site for a securities trading company.</p>
-<div class="backtop">
-<a href="/">Back top</a>
-</div>	
+<!--#include virtual="/ssi/backtop.txt" -->
 </div>
 </div>
 

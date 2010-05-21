@@ -32,9 +32,7 @@
 <h2>Ecology REIT Corporation</h2>
 <p class="year">2006, Design</p>
 <p>Designed the web site for a real estate investment company.</p>
-<div class="backtop">
-<a href="/">Back top</a>
-</div>	
+<!--#include virtual="/ssi/backtop.txt" -->
 </div>
 </div>
 

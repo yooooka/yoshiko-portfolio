@@ -31,12 +31,10 @@
 </div>
 <div class="explanation">
 <h2>AK100 World Tour</h2>
-<p class="year">2008, Design, Code, Flash</p>
+<p class="year">2008, Design, Coding, Flash</p>
 <p>Created the site to promote a touring film festival that celebrated Akira Kurosawa's 100th birthday. The site has English and Japanese.</p>
 <p><a href="http://www.ak100wt.com/" target="_blank">http://www.ak100wt.com/</a></p>
-<div class="backtop">
-<a href="/">Back top</a>
-</div>	
+<!--#include virtual="/ssi/backtop.txt" -->
 </div>
 </div>
 
