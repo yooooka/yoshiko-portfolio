@@ -1,0 +1,3 @@
+<div class="backtop">
+<a href="/top.shtml">Back top</a>
+</div>	

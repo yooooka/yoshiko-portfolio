@@ -9,24 +9,11 @@
 <title>Web and Graphic Designer / Yoshiko Oka</title>
 <link rel="stylesheet" type="text/css" href="css/common.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-<link rel="shortcut icon" href="favicon.ico" />
+<link rel="shortcut icon" href="/favicon.ico" />
 <script type="text/javascript" src="jquery/jquery-1.4.2.js"></script>
-<script type="text/javascript">
-	$(function() {
-// OPACITY OF BUTTON SET TO 0%
-$("#topthumb_web li img, #topthumb_go li img").css("opacity","0"); 
-// ON MOUSE OVER
-$("#topthumb_web li img, #topthumb_go li img").hover(function () {
-// SET OPACITY TO 100%
-$(this).stop().animate({opacity: 1.0}, "normal");
-},
-// ON MOUSE OUT
-function () {
-// SET OPACITY BACK TO 00%
-$(this).stop().animate({opacity: 0}, "normal");
-});
-});
-</script>
+<script type="text/javascript" src="jquery/jquery-ui-1.8.1.custom.min.js"></script>
+<script type="text/javascript" src="jquery/top.js"></script>
+
 </head>
 
 <body>
@@ -34,7 +21,6 @@ $(this).stop().animate({opacity: 0}, "normal");
 <div id="container_inner">
 	
 <!--#include virtual="/ssi/header.txt" -->
-
 
 <div id="thumb_frame" class="clearfix">
 <div id="topthumb_web">
@@ -92,10 +78,10 @@ $(this).stop().animate({opacity: 0}, "normal");
 <ul>
 <li><a href="/sample_go/go025.shtml"><img src="images/thumb/wovenlight_t.jpg" alt="Thumbnail" /></a><p>Woven Light<br />2010</p></li>
 <li><a href="/sample_go/go024.shtml"><img src="images/thumb/bonsaiauction_t.jpg" alt="Thumbnail" /></a><p>Bonsai Auction<br />2010</p></li>
-<li><a href="/sample_go/go023.shtml"><img src="images/thumb/tackysmack1_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2010</p></li>
-<li><a href="/sample_go/go022.shtml"><img src="images/thumb/tackysmack2_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2010</p></li>
-<li><a href="/sample_go/go021.shtml"><img src="images/thumb/tackysmack3_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2010</p></li>
-<li><a href="/sample_go/go020.shtml"><img src="images/thumb/tackysmack4_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2010</p></li>
+<li><a href="/sample_go/go023.shtml"><img src="images/thumb/tackysmack1_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2009</p></li>
+<li><a href="/sample_go/go022.shtml"><img src="images/thumb/tackysmack2_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2009</p></li>
+<li><a href="/sample_go/go021.shtml"><img src="images/thumb/tackysmack3_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2009</p></li>
+<li><a href="/sample_go/go020.shtml"><img src="images/thumb/tackysmack4_t.jpg" alt="Thumbnail" /></a><p>Tacky Smack<br />2009</p></li>
 <li><a href="/sample_go/go019.shtml"><img src="images/thumb/yntranslationlogo_t.jpg" alt="Thumbnail" /></a><p>YN Translation Logo<br />2009</p></li>
 <li><a href="/sample_go/go018.shtml"><img src="images/thumb/youmaga_t.jpg" alt="Thumbnail" /></a><p>Youmaga<br />2008</p></li>
 <li><a href="/sample_go/go017.shtml"><img src="images/thumb/uticketlogo_t.jpg" alt="Thumbnail" /></a><p>Uticket Logo<br />2006</p></li>
@@ -105,13 +91,13 @@ $(this).stop().animate({opacity: 0}, "normal");
 <li><a href="/sample_go/go013.shtml"><img src="images/thumb/kikaimart_t.jpg" alt="Thumbnail" /></a><p>Kikai Mart Logo<br />2000</p></li>
 <li><a href="/sample_go/go012.shtml"><img src="images/thumb/mitsubishirayon_t.jpg" alt="Thumbnail" /></a><p>Mitsubishi Rayon<br />1999</p></li>
 <li><a href="/sample_go/go011.shtml"><img src="images/thumb/nagomi1_t.jpg" alt="Thumbnail" /></a><p>Nagomi Tea<br />1999</p></li>
-<li><a href="/sample_go/go010.shtml"><img src="images/thumb/dupont_t.jpg" alt="Thumbnail" /></a><p>DuPont<br />1999</p></li>
-<li><a href="/sample_go/go009.shtml"><img src="images/thumb/yukijirushi1_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1999</p></li>
-<li><a href="/sample_go/go008.shtml"><img src="images/thumb/yukijirushi2_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1999</p></li>
+<li><a href="/sample_go/go010.shtml"><img src="images/thumb/dupont_t.jpg" alt="Thumbnail" /></a><p>DuPont<br />1998</p></li>
+<li><a href="/sample_go/go009.shtml"><img src="images/thumb/yukijirushi1_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1998</p></li>
+<li><a href="/sample_go/go008.shtml"><img src="images/thumb/yukijirushi2_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1998</p></li>
 <li><a href="/sample_go/go007.shtml"><img src="images/thumb/yukijirushi3_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1999</p></li>
 <li><a href="/sample_go/go006.shtml"><img src="images/thumb/yukijirushi4_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1999</p></li>
 <li><a href="/sample_go/go005.shtml"><img src="images/thumb/yukijirushi5_t.jpg" alt="Thumbnail" /></a><p>Yukijirushi<br />1999</p></li>
-<li><a href="/sample_go/go004.shtml"><img src="images/thumb/sasazuke_t.jpg" alt="Thumbnail" /></a><p>Sasa-zuke Sake<br />1998</p></li>
+<li><a href="/sample_go/go004.shtml"><img src="images/thumb/sasazuke_t.jpg" alt="Thumbnail" /></a><p>Sasa-zuke Sake<br />1999</p></li>
 <li><a href="/sample_go/go003.shtml"><img src="images/thumb/nagomi2_t.jpg" alt="Thumbnail" /></a><p>Nagomi Tea<br />1998</p></li>
 <li><a href="/sample_go/go002.shtml"><img src="images/thumb/mccormick_t.jpg" alt="Thumbnail" /></a><p>Lion McCormick<br />1998</p></li>
 <li><a href="/sample_go/go001.shtml"><img src="images/thumb/isetan_t.jpg" alt="Thumbnail" /></a><p>Isetan Tsushin<br />1997</p></li>

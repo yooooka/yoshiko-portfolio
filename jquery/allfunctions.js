@@ -1,4 +1,8 @@
-// Slider Menu 
+
+jQuery.noConflict()( function($) {
+var j$ = jQuery;
+
+// Slider Menu 	
 window.onload = function () {
     var container = $('div.sliderGallery');
     var ul = $('ul', container);
@@ -16,15 +20,13 @@ window.onload = function () {
         }
     });
 };
- 
- 
-
 // Rounded corner for IE 
 
 $(function(){
 $(".rounded").corner("6px")
 });
 
+});
 
 // Next and Previous navi Websites
 
