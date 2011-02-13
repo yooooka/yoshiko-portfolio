@@ -8,6 +8,7 @@
 
 <title>Web and Graphic Designer / Yoshiko Oka</title>
 <link rel="stylesheet" type="text/css" href="/css/common.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/form.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -21,6 +22,8 @@
 
    JotForm.init(function(){
       $('input_3').hint('ex: myname@example.com');
+      JotForm.initCaptcha('input_7');
+      $('input_7').hint('Type the above text');
    });
 
 </script>
@@ -80,6 +83,23 @@
 
                 </div>
             </li>
+            <li class="form-line" id="id_7">
+                <label class="form-label-left" id="label_7" for="input_7">
+                    Enter the message as it's shown<span class="form-required">*</span>
+                </label>
+                <div id="id_7" class="form-input">
+                    <div class="form-captcha">
+
+                        <label for="input_7"> <img alt="Captcha - Reload if it's not displayed" id="input_7_captcha" class="form-captcha-image" style="background:url(http://www.jotform.com/images/loader-big.gif) no-repeat center;" src="http://www.jotform.com/images/blank.gif" width="150" height="41" /> </label>
+                        <div style="white-space:nowrap;">
+                            <input type="text" id="input_7" name="captcha" style="width:130px;" />
+                            <img src="http://www.jotform.com/images/reload.png" alt="Reload" align="absmiddle" style="cursor:pointer" onclick="JotForm.reloadCaptcha('input_7');" />
+                            <input type="hidden" name="captcha_id" id="input_7_captcha_id" value="0">
+                        </div>
+                    </div>
+                </div>
+
+            </li>
             <li class="form-line" id="id_2">
                 <div id="id_2" class="form-input-wide">
                     <div style="text-align:center">
@@ -113,7 +133,7 @@
 
 </div>
 <!--#include virtual="/ssi/contact.txt" -->
-</div>
+
 </div>
 </body>
 </html>

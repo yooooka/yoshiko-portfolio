@@ -4,7 +4,7 @@
 .sampleimg > img, .profilepic > img{border: 1px solid #DEDEDE;}
 
 .sampleframe_web{ position: relative; margin: 15px 4px; padding: 10px; background: #C3D72C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
-.sampleframe_go, .contactframe{ position: relative; margin: 15px 4px; padding: 10px; background: #6F9B2C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
+.sampleframe_go, .contactframe{ position: relative; margin: 15px 4px; padding: 10px; background: #6FB92C; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
 .contactframe_form{ position: relative; margin: 15px 4px; padding: 10px; background: #C3D72C url(../images/contactbg.jpg) right 10px no-repeat; font-size: 1.4em; line-height: 1.4; width: 1062px; _width:1082px;}
 
 
@@ -38,10 +38,10 @@
 .contactframe h3{ font-size: 1.1em; margin-bottom: 5px;}
 .contactframe ul{ margin-bottom: 20px;}
 .contactframe ul li{ font-weight: normal;}
-.profileskills{float: left; width: 360px; margin-top: 5px;}
+.profileskills{float: left; width: 360px; margin-top: 5px; background: url(../images/softwareicon.jpg) 210px 15px no-repeat;}
 .profiletxt{float: left; width: 400px; margin-right: 20px; margin-top: 5px;}
 .profilepic{float: left; width: 230px;}
-#twitterwidget{margin-top: 10px; position: absolute; bottom: 20px;}
+#twitterwidget{margin-top: 10px; margin-bottom: 10px;}
 
 
 .contactframe_form #formframe{ width:650px; margin: 0px auto; }

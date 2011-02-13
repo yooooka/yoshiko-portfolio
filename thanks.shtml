@@ -8,6 +8,7 @@
 
 <title>Web and Graphic Designer / Yoshiko Oka</title>
 <link rel="stylesheet" type="text/css" href="/css/common.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/form.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -45,7 +46,6 @@
 
 </div>
 <!--#include virtual="/ssi/contact.txt" -->
-</div>
 </div>
 </body>
 </html>

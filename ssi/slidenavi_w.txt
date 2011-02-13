@@ -1,6 +1,7 @@
 
 <div class="sliderGallery rounded">
 <ul>
+<li><a href="/sample_web/web045.shtml"><img src="/images/thumb/shun_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web044.shtml"><img src="/images/thumb/skullsquad_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web043.shtml"><img src="/images/thumb/yntranslation_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web042.shtml"><img src="/images/thumb/ak100_t.jpg" alt="Thumbnail" /></a></li>
@@ -45,6 +46,9 @@
 <li><a href="/sample_web/web003.shtml"><img src="/images/thumb/k19_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web002.shtml"><img src="/images/thumb/hotel_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web001.shtml"><img src="/images/thumb/foxmovies_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="/sample_go/go028.shtml"><img src="/images/thumb/thelittleprince_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="/sample_go/go027.shtml"><img src="/images/thumb/ja_invitation_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="/sample_go/go026.shtml"><img src="/images/thumb/ja_std_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_go/go025.shtml"><img src="/images/thumb/wovenlight_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_go/go024.shtml"><img src="/images/thumb/bonsaiauction_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_go/go023.shtml"><img src="/images/thumb/tackysmack1_t.jpg" alt="Thumbnail" /></a></li>

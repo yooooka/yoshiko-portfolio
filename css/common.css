@@ -1,45 +1,47 @@
 @charset 'UTF-8';
 @import url("contents.css");
-@import url("form.css");
 
-body {color:#000; margin:0px; text-align:center;}
-#container { margin:0px auto; padding:0px; background: #EEE url(../images/ruler.gif) 0 0 repeat-x;}
+body {color:#000; margin:0px; text-align:center; height: 100%;}
+#container { margin:0px auto; padding:0px; background: #EEE;}
 #container_inner{ margin:0px auto; width: 1090px; text-align: left; padding-bottom: 50px; /*background:url(../images/citybg.gif) 0 bottom no-repeat;*/ }
 
 /* ____ header ____ */
 #header {padding-top: 6em;}
 #header h1{ width: 702px; height: 177px; background: url(../images/title.gif) 0 0 no-repeat; }
 #header h1 a{ display:block; width: 702px; height: 177px;  }
-#righthead{ position: absolute; top: 10px; right: 0px;}
+#righthead{ position: fixed; _position: absolute; top: 0px; right: 0px; height: 53px; background: url(../images/ruler.gif) 0 0 repeat-x; padding-top: 10px; width: 100%;
+-moz-opacity:.90; filter:alpha(opacity=90); opacity:.90; }
 
 #righthead h3#profile, #righthead h3#contact, #righthead h3#twitter{ display: inline;}
 
-#righthead h3#profile a{ width:72px; height:22px; background: url(../images/sprite01.gif) -108px 0px no-repeat; float: right; margin-right: 5px;}
-#righthead h3#contact a{ width:72px; height:22px; background: url(../images/sprite01.gif) -184px 0px no-repeat; float: right; margin-right: 5px;}
-#righthead h3#twitter a{ width:24px; height:22px; background: url(../images/sprite01.gif) -262px 0px no-repeat; float: right; margin-right: 10px;}
-#righthead h3#profile a:hover{ background-position:-108px -22px;}
-#righthead h3#contact a:hover{ background-position:-184px -22px;}
-#righthead h3#twitter a:hover{ background-position:-262px -22px;}
+#righthead h3#profile a{ width:72px; height:22px; background: url(../images/sprite01.gif) -84px 0px no-repeat; float: right; margin-right: 5px;}
+#righthead h3#contact a{ width:72px; height:22px; background: url(../images/sprite01.gif) -160px 0px no-repeat; float: right; margin-right: 5px;}
+#righthead h3#twitter a{ width:22px; height:22px; background: url(../images/sprite01.gif) -238px 0px no-repeat; float: right; margin-right: 5px;}
+#righthead h3#linkedin a{ width:22px; height:22px; background: url(../images/sprite01.gif) -265px 0px no-repeat; float: right; margin-right: 10px;}
+#righthead h3#profile a:hover{ background-position:-84px -22px;}
+#righthead h3#contact a:hover{ background-position:-160px -22px;}
+#righthead h3#twitter a:hover{ background-position:-238px -22px;}
+#righthead h3#linkedin a:hover{ background-position:-265px -22px;}
 
 
 /* ____ only top ____ */
 #toplist li{ display:inline; margin:10px; font-size:0.9em;}
 #toplist{ margin:20px; font-size:1.2em; line-height:1.6;}
 
-#thumb_frame{}
+#thumb_frame{ _width: 1100px;}
 #thumb_frame h2{ margin: 5px 0px; font-size: 1.4em; }
 #topthumb_web li p, #topthumb_go li p{ padding-bottom: 20px;}
 #topthumb_web li p:first-line, #topthumb_go li p:first-line{ padding-top: 2px; color: #000; font-weight: bold;}
 #topthumb_web li img, #topthumb_go li img{ text-align: center; margin: 10px; height: 81px; }
 
-#topthumb_web { text-align: left; width: 676px; font-size: 1.1em; float:left; margin-left: 4px;}
-#topthumb_web ul{ width: 680px; margin-right: -4px; overflow: hidden; _zoom: 1}
+#topthumb_web { text-align: left; width: 676px;  font-size: 1.1em; float:left; margin-left: 4px;}
+#topthumb_web ul{ width: 680px; /*margin-right: -4px; overflow: hidden; _zoom: 1;*/}
 #topthumb_web li{ display: inline; float: left; }
 #topthumb_web li a{ display:block; width: 132px; height: 101px; color:#999; text-decoration: none; font-weight: bold;
 background: url(../images/sprite01.gif) -6px -53px no-repeat; margin-right: 4px; margin-bottom: 2px; }
 
 #topthumb_go { text-align: left; width: 404px; font-size: 1.1em; float:left; margin-left: 4px;}
-#topthumb_go ul{ width:408px; margin-right: -4px; overflow: hidden; _zoom: 1}
+#topthumb_go ul{ width:408px; /*margin-right: -4px; overflow: hidden; _zoom: 1;*/}
 #topthumb_go li{ display: inline; float: left; }
 #topthumb_go li a{ display:block; width: 132px; height: 101px; color:#999; text-decoration: none; font-weight: bold;
 background: url(../images/sprite01.gif) -154px -53px no-repeat; margin-right: 4px; margin-bottom: 2px; }

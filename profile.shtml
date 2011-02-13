@@ -32,7 +32,7 @@
 <div class="profiletxt">
 <p>Yoshiko Oka was born in Japan and worked in Tokyo for the last 12 years as a graphic and web designer. She moved to Seattle in 2008. </p>
 <p>She is always seeking opportunities to collaborate with new people to create something new.</p>
-<p>If you have an interest in working with me, please feel free to contact me.</p>
+<p>If you have an interest in working with me, please feel free to <a href="contact.shtml">contact me.</a></p>
 
 <div id="twitterwidget">
 <script src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -72,7 +72,7 @@ new TWTR.Widget({
 <div class="profileskills">
 <h2>Skills</h2>
 <div class="list">
-<h3>Softwares</h3>
+<h3>Software</h3>
 	<ul>
 	<li class="Photoshop">Photoshop</li>
 	<li class="Illustrator">Illustrator</li>
@@ -99,7 +99,7 @@ new TWTR.Widget({
 	</ul>
 </div>
 <p>Also have knowledge of Printing and Advertising.</p>	
-<p>- Download <a href="/yoshikooka_resume.pdf">my resume</a></p>
+<!--p>- Download <a href="/yoshikooka_resume.pdf">my resume</a></p-->
 </div>
 
 
@@ -111,7 +111,6 @@ new TWTR.Widget({
 
 </div>
 <!--#include virtual="/ssi/contact.txt" -->
-</div>
 </div>
 </body>
 </html>

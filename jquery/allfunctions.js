@@ -34,7 +34,7 @@ function nextPg(step) {
   var str = window.location.href;
   if(pNum = str.match(/(\d+)\.shtml/i)){
     pNum = pNum[1] * 1 + step+'';
-	if ((pNum< 1) || (pNum > 44)) { pNum = "0"+44; }
+	if ((pNum< 1) || (pNum > 44)) { pNum = "0"+45; }
 	 else { pNum = "000".substr(0, 3-pNum.length)+pNum; }
       window.location = str.replace(/\d+\.shtml/i, pNum+'.shtml');   
   }
@@ -46,7 +46,7 @@ function nextPgG(step) {
   var str = window.location.href;
   if(pNum = str.match(/(\d+)\.shtml/i)){
     pNum = pNum[1] * 1 + step+'';
-	if ((pNum< 1) || (pNum > 25)) { pNum = "0"+25; }
+	if ((pNum< 1) || (pNum > 27)) { pNum = "0"+28; }
 	 else { pNum = "000".substr(0, 3-pNum.length)+pNum; }
       window.location = str.replace(/\d+\.shtml/i, pNum+'.shtml');   
   }
