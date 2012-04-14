@@ -19,6 +19,8 @@
 <body>
 <div id="container">
 <div id="container_inner">
+
+<!--#include virtual="/ssi/contact.txt" -->
 	
 <!--#include virtual="/ssi/header.txt" -->
 
@@ -111,7 +113,6 @@
 
 
 </div>
-<!--#include virtual="/ssi/contact.txt" -->
 
 </div>
 </div>

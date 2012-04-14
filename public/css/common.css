@@ -2,7 +2,7 @@
 @import url("contents.css");
 
 body {color:#000; margin:0px; text-align:center; height: 100%;}
-#container { margin:0px auto; padding:0px; background: #EEE;}
+#container { margin:0px auto; padding:0px; background: #eee /* url(../images/newbg.png) 0 0 repeat */;}
 #container_inner{ margin:0px auto; width: 1090px; text-align: left; padding-bottom: 50px; /*background:url(../images/citybg.gif) 0 bottom no-repeat;*/ }
 
 /* ____ header ____ */
