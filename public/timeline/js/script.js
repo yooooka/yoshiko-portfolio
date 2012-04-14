@@ -15,7 +15,7 @@ $('#btns li').click(function(e) {
   .children('img')
   .removeClass('active')
   .animate(
-    { left: "hide", opacity: "hide"},
+    { top: "hide", opacity: "hide"},
     "slow"
   );
 
@@ -23,7 +23,7 @@ $('#btns li').click(function(e) {
   .toggleClass('active')
   .eq(active_index)
   .animate(
-    { left: "toggle", opacity: "toggle"},
+    { top: "toggle", opacity: "toggle"},
     "slow"
   )
 });
