@@ -1,8 +1,5 @@
 $(function () {
 
-/* fancy box*/
-$("a.group").fancybox();
-
 /* toggle*/
 $('#btns li').click(function(e) {
   var $that = $(this);
@@ -27,4 +24,12 @@ $('#btns li').click(function(e) {
     "slow"
   )
 });
+
+/* fancy box*/
+$("a.[rel=lm], a.[rel=am], a.[rel=em]").fancybox();
+			
+$("a.group").fancybox();
+
+
+
 });

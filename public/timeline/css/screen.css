@@ -24,7 +24,7 @@ vertical-align: baseline;
 
 body{ margin: 10px 0 0 0;
 background:#000;
-text-align: center;
+/* text-align: center; */
 position: relative;
 }
 
@@ -129,7 +129,8 @@ position: absolute; top: 30px; left: 1369px;}
 position: absolute; top: 30px; left: 1369px;}
 
 
-
+#projects{ width: 520px; margin: 0 auto;  padding-top:200px; text-align: center;}
+#projects a img{ float: left; padding-right: 50px;}
 
 
 .alt{
