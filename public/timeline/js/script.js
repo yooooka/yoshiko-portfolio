@@ -10,25 +10,21 @@ $(function () {
   /* toggle*/
 
   $tabs.click(function(e) {
-console.log($(this).scrollLeft());
-
     var $that = $(this);
     var activeIndex = $that.index();
     $that.toggleClass('active').siblings().removeClass('active');
-    $('a.group')
-    .eq(activeIndex)
-    .siblings('a.group')
-    .children('img')
-    .removeClass('active')
-    .animate({ top: "hide", opacity: "hide"}, "slow");
-
-  $('a.group img')
-    .toggleClass('active')
-    .eq(activeIndex)
-    .animate({top: "toggle", opacity: "toggle"}, "slow");
     
-  var offset = Math.max(0, $tabs.filter('.active').offset().left - 150);
-  $('html, body').animate({scrollLeft: offset}, 2000);
+    $('a.group')
+      .eq(activeIndex)
+      .siblings('a.group')
+      .children('img')
+      .removeClass('active')
+      .animate({ top: "hide", opacity: "hide"}, "slow");
+
+    $('a.group img')
+      .toggleClass('active')
+      .eq(activeIndex)
+      .animate({top: "toggle", opacity: "toggle"}, "slow");
   });
 
   $(window).keyup(function(e){
@@ -37,6 +33,9 @@ console.log($(this).scrollLeft());
     if (e.keyCode == 32) {
       // advance slides
       if (fancyIsVisbible || activeIndex===-1 || $panes.eq(activeIndex).hasClass('notfancy')) {
+        var offset = Math.max(0, $tabs.filter('.active').offset().left - 150);
+        $('html, body').animate({scrollLeft: offset}, 2000);
+
         $('#fancybox-overlay').trigger('click');
         $tabs.eq((activeIndex+1) % $tabs.length).trigger('click');
       } else {
@@ -47,6 +46,9 @@ console.log($(this).scrollLeft());
       if (fancyIsVisbible) {
         $('#fancybox-overlay').trigger('click');
       } else {
+        var offset = Math.max(0, $tabs.filter('.active').offset().left - 150);
+        $('html, body').animate({scrollLeft: offset}, 2000);
+
         $tabs.eq(activeIndex-1).trigger('click');
         $panes.eq(activeIndex-1).trigger('click');
       }
