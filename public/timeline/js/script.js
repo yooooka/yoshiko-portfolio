@@ -1,6 +1,7 @@
 $(function () {
 
   /* fancy box*/
+  $("a.[rel=lm], a.[rel=am], a.[rel=em]").fancybox();
   $("a.group").fancybox();
 
   var $tabs = $('#btns li');
@@ -13,16 +14,16 @@ $(function () {
     var activeIndex = $that.index();
     $that.toggleClass('active').siblings().removeClass('active');
     $('a.group')
-      .eq(activeIndex)
-      .siblings('a.group')
-      .children('img')
-      .removeClass('active')
-      .animate({ top: "hide", opacity: "hide"}, "slow");
+    .eq(activeIndex)
+    .siblings('a.group')
+    .children('img')
+    .removeClass('active')
+    .animate({ top: "hide", opacity: "hide"}, "slow");
 
-    $('a.group img')
-      .toggleClass('active')
-      .eq(activeIndex)
-      .animate({top: "toggle", opacity: "toggle"}, "slow");
+  $('a.group img')
+    .toggleClass('active')
+    .eq(activeIndex)
+    .animate({top: "toggle", opacity: "toggle"}, "slow");
   });
 
   $(window).keyup(function(e){
