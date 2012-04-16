@@ -1,30 +1,49 @@
 $(function () {
 
-/* fancy box*/
-$("a.group").fancybox();
+  /* fancy box*/
+  $("a.group").fancybox();
 
-/* toggle*/
-$('#btns li').click(function(e) {
-  var $that = $(this);
-  var active_index = $that.index();
-  $that.toggleClass('active').siblings().removeClass('active');
+  var $tabs = $('#btns li');
+  var $panes = $('a.group');
 
-  $('a.group')
-  .eq(active_index)
-  .siblings('a.group')
-  .children('img')
-  .removeClass('active')
-  .animate(
-    { top: "hide", opacity: "hide"},
-    "slow"
-  );
+  /* toggle*/
 
-  $('a.group img')
-  .toggleClass('active')
-  .eq(active_index)
-  .animate(
-    { top: "toggle", opacity: "toggle"},
-    "slow"
-  )
-});
+  $tabs.click(function(e) {
+    var $that = $(this);
+    var activeIndex = $that.index();
+    $that.toggleClass('active').siblings().removeClass('active');
+    $('a.group')
+      .eq(activeIndex)
+      .siblings('a.group')
+      .children('img')
+      .removeClass('active')
+      .animate({ top: "hide", opacity: "hide"}, "slow");
+
+    $('a.group img')
+      .toggleClass('active')
+      .eq(activeIndex)
+      .animate({top: "toggle", opacity: "toggle"}, "slow");
+  });
+
+  $(window).keyup(function(e){
+    var activeIndex = $tabs.filter('.active').index();
+    var fancyIsVisbible = $('#fancybox-content').is(":visible");
+    if (e.keyCode == 32) {
+      // advance slides
+      if (fancyIsVisbible || activeIndex===-1) {
+        $('#fancybox-overlay').trigger('click');
+        $tabs.eq((activeIndex+1) % $tabs.length).trigger('click');
+      } else {
+        $panes.eq(activeIndex).trigger('click');
+      }
+    } else if (e.keyCode == 27 && activeIndex >= 0) {
+      // backup slides
+      if (fancyIsVisbible) {
+        $('#fancybox-overlay').trigger('click');
+      } else {
+        $tabs.eq(activeIndex-1).trigger('click');
+        $panes.eq(activeIndex-1).trigger('click');
+      }
+    }
+  });
 });
