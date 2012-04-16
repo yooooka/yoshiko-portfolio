@@ -2,7 +2,7 @@ $(function () {
 
   /* fancy box*/
   $("a.[rel=lm], a.[rel=am], a.[rel=em]").fancybox();
-  $("a.group").fancybox();
+  $("a.group").filter(':not(.notfancy)').fancybox();
 
   var $tabs = $('#btns li');
   var $panes = $('a.group');
@@ -10,6 +10,8 @@ $(function () {
   /* toggle*/
 
   $tabs.click(function(e) {
+console.log($(this).scrollLeft());
+
     var $that = $(this);
     var activeIndex = $that.index();
     $that.toggleClass('active').siblings().removeClass('active');
@@ -24,6 +26,9 @@ $(function () {
     .toggleClass('active')
     .eq(activeIndex)
     .animate({top: "toggle", opacity: "toggle"}, "slow");
+    
+  var offset = Math.max(0, $tabs.filter('.active').offset().left - 150);
+  $('html, body').animate({scrollLeft: offset}, 2000);
   });
 
   $(window).keyup(function(e){
@@ -31,7 +36,7 @@ $(function () {
     var fancyIsVisbible = $('#fancybox-content').is(":visible");
     if (e.keyCode == 32) {
       // advance slides
-      if (fancyIsVisbible || activeIndex===-1) {
+      if (fancyIsVisbible || activeIndex===-1 || $panes.eq(activeIndex).hasClass('notfancy')) {
         $('#fancybox-overlay').trigger('click');
         $tabs.eq((activeIndex+1) % $tabs.length).trigger('click');
       } else {
