@@ -7,6 +7,6 @@
 # -r recursive
 # -k convert links so they are suitable for local viewing
 # -np no parent (only download below a dir for example)
-#wget -rkp -np --no-proxy http://yoshiko.901farm.kaki/
+wget -rkp -np -nH --no-proxy -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
 
-wget --mirror -p --convert-links --no-proxy -nH -k -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
+#wget --mirror -p --convert-links --no-proxy -nH -k -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
