@@ -9,4 +9,7 @@
 # -np no parent (only download below a dir for example)
 wget -rkp -np -nH --no-proxy -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
 
+rm -rf ./yoshiko-portfolio-deploy/timeline
+cp -R ./public/timeline ./yoshiko-portfolio-deploy/timeline
+
 #wget --mirror -p --convert-links --no-proxy -nH -k -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
