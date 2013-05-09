@@ -9,6 +9,8 @@
 # -np no parent (only download below a dir for example)
 wget -rkp -np -nH --no-proxy -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
 
+wget -O ./yoshiko-portfolio-deploy/thanks.shtml http://yoshiko.901farm.kaki/thanks.shtml
+
 rm -rf ./yoshiko-portfolio-deploy/timeline
 cp -R ./public/timeline ./yoshiko-portfolio-deploy/timeline
 
