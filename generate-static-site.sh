@@ -10,6 +10,7 @@
 wget -rkp -np -nH --no-proxy -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
 
 wget -O ./yoshiko-portfolio-deploy/thanks.shtml http://yoshiko.901farm.kaki/thanks.shtml
+cp ./public/images/smiley.png ./yoshiko-portfolio-deploy/images/
 
 rm -rf ./yoshiko-portfolio-deploy/timeline
 cp -R ./public/timeline ./yoshiko-portfolio-deploy/timeline
