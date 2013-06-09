@@ -4,7 +4,7 @@
 .form-label-left{ width:120px !important; padding-left: 20px !important; padding-right: 10px !important;  }
 .form-line{ padding:10px; }
 .form-label-right{ }
-.form-all{ margin:10px auto; width:650px !important; color:Black; font-size:1em; border: 1px solid #EEE; background: url(../images/hatching.gif);}
+.form-all{ margin:10px auto; width:650px !important; color:Black; font-size:1em; border: 1px solid #EEE; background: url(/images/hatching.gif);}
 
 /*
  *Form CSS from jotform
@@ -17,7 +17,7 @@
 .form-captcha:hover { border: 1px solid #aaa; }
 .form-captcha-image { border: 1px solid #aaa; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px; }
 
-.form-collapse-table{ height:58px;  border:1px solid #ccc; background:#f5f5f5 url(../../images/soft-grad.png) repeat-x; position:relative; }
+.form-collapse-table{ height:58px;  border:1px solid #ccc; background:#f5f5f5 url(/images/soft-grad.png) repeat-x; position:relative; }
 .form-collapse-left{ }
 .form-collapse-mid{ text-shadow:0px 2px 0px #fff; float:left; font-size:18px; margin:16px 45px 16px 20px; }
 
@@ -40,8 +40,8 @@
 .form-submit-print{ padding:1px 6px; }
 
 .form-collapse-right{ position:absolute; right:0px; height:58px; width:40px; }
-.form-collapse-right-show{ background: url(../../images/arrow-open.png) no-repeat center; }
-.form-collapse-right-hide{ background: url(../../images/arrow-closed.png) no-repeat center; }
+.form-collapse-right-show{ background: url(/images/arrow-open.png) no-repeat center; }
+.form-collapse-right-hide{ background: url(/images/arrow-closed.png) no-repeat center; }
 .form-collapse-hidden { display: none; }
 .form-grading-item { margin-bottom: 3px; }
 .form-header { margin:0px; }

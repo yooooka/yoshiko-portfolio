@@ -2,11 +2,11 @@
 
 #wget -rkp -l3 -np -nH --cut-dirs=1 http://yoshiko.901farm.kaki/
 
-# -nH Disable generation of host-prefixed directories.
-# -p download page requisites
 # -r recursive
 # -k convert links so they are suitable for local viewing
+# -p download page requisites
 # -np no parent (only download below a dir for example)
+# -nH Disable generation of host-prefixed directories.
 wget -rkp -np -nH --no-proxy -P ./yoshiko-portfolio-deploy http://yoshiko.901farm.kaki/
 
 wget -O ./yoshiko-portfolio-deploy/thanks.shtml http://yoshiko.901farm.kaki/thanks.shtml
