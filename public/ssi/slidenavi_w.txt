@@ -1,6 +1,8 @@
 
 <div class="sliderGallery rounded">
 <ul>
+<li><a href="/sample_web/web047.shtml"><img src="/images/thumb/amazon-kindle_t.jpg" alt="Thumbnail" /></a></li>
+<li><a href="/sample_web/web046.shtml"><img src="/images/thumb/emeritus-mobile_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web045.shtml"><img src="/images/thumb/shun_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web044.shtml"><img src="/images/thumb/skullsquad_t.jpg" alt="Thumbnail" /></a></li>
 <li><a href="/sample_web/web043.shtml"><img src="/images/thumb/yntranslation_t.jpg" alt="Thumbnail" /></a></li>
