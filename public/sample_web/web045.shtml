@@ -26,7 +26,7 @@
 <div class="sampleframe_outer">
 <div class="sampleframe_web clearfix rounded">
 <div class="sampleimg">
-<a href="http://shunrestaurant.com/" target="_blank"><img src="/images/samples/shun.jpg" alt="shun" /></a>
+<img src="/images/samples/shun.jpg" alt="shun" />
 </div>
 <div class="explanation">
 <h2>Shun Japanese Restaurant</h2>
